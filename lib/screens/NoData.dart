@@ -11,13 +11,13 @@ class Nodata extends StatelessWidget {
         Center(
           child: Text(
             "There is no weather 😞",
-            style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
           ),
         ),
         Center(
           child: Text(
             "Start searching a city now 🔍",
-            style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
         )
       ],
