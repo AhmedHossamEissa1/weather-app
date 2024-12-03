@@ -1,0 +1,34 @@
+name: weather_app_advanced
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  bloc: ^8.1.4
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_launcher_icons: ^0.14.1
+
+
+dev_dependencies:
+  flutter_native_splash: ^2.4.3
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#42a5f5"
+  background_image: "assets/images/app10.jpg"
+  android_gravity: fill
